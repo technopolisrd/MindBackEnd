@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit" Version="1.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heroes.Business\Mind.Business.csproj" />
+    <ProjectReference Include="..\Heroes.Context\Mind.Context.csproj" />
+    <ProjectReference Include="..\Heroes.Entity\Mind.Entity.csproj" />
+    <ProjectReference Include="C:\Users\rmorillo\Documents\Repos\Inventario_Backend\Common.Core\Common.Core.csproj" />
+  </ItemGroup>
+
+</Project>
